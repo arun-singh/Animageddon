@@ -1,0 +1,151 @@
+<!-- authors: Barney -->
+<map>
+	<!-- The texture of the map background -->
+	<texture>grass</texture>
+
+	<!-- The size of the map -->
+	<size>
+		<width>1000</width>
+		<height>1000</height>
+	</size>
+
+	<!-- The teams allowed to play on the map -->
+	<teams>
+		<team>
+			<name>UoB</name>
+			<id>1</id>
+            <spawnpointX>-400</spawnpointX>
+            <spawnpointY>-400</spawnpointY>
+            <capturepointX>-400</capturepointX>
+            <capturepointY>-400</capturepointY>
+		</team>
+		<team>
+			<name>BCU</name>
+			<id>2</id>
+            <spawnpointX>400</spawnpointX>
+            <spawnpointY>400</spawnpointY>
+            <capturepointX>400</capturepointX>
+            <capturepointY>400</capturepointY>
+		</team>
+	</teams>
+
+	<!-- List the non-player entities, including AI entities that are not part of a team -->
+	<!-- Must contain at least one flag per side -->
+	<!-- All flags can be captured for everyone for the moment -->
+	<entities>
+		<!-- Flag related entities -->
+		<Flag>
+			<x>-200</x>	
+			<y>200</y>	
+		</Flag>
+		<!-- Wood building -->
+		<!--
+		<TexturedBlock>
+		    <x>150</x>
+		    <y>-100</y>
+		    <width>200</width>
+		    <height>30</height>
+		    <texture>wood</texture>
+		</TexturedBlock>
+		-->
+		<TexturedBlock>
+		    <x>150</x>
+		    <y>-300</y>
+		    <width>200</width>
+		    <height>30</height>
+		    <texture>wood</texture>
+		</TexturedBlock>
+		<TexturedBlock>
+		    <x>65</x>
+		    <y>-200</y>
+		    <width>30</width>
+		    <height>170</height>
+		    <texture>wood</texture>
+		</TexturedBlock>
+		
+		<TexturedBlock>
+		    <x>128</x>
+		    <y>0</y>
+		    <width>64</width>
+		    <height>64</height>
+		    <texture>rock</texture>
+		</TexturedBlock>
+		<TexturedBlock>
+		    <x>64</x>
+		    <y>0</y>
+		    <width>64</width>
+		    <height>64</height>
+		    <texture>rock</texture>
+		</TexturedBlock>
+		<TexturedBlock>
+		    <x>0</x>
+		    <y>0</y>
+		    <width>64</width>
+		    <height>64</height>
+		    <texture>rock</texture>
+		</TexturedBlock>
+		<TexturedBlock>
+		    <x>-64</x>
+		    <y>0</y>
+		    <width>64</width>
+		    <height>64</height>
+		    <texture>rock</texture>
+		</TexturedBlock>
+		<TexturedBlock>
+		    <x>-128</x>
+		    <y>0</y>
+		    <width>64</width>
+		    <height>64</height>
+		    <texture>rock</texture>
+		</TexturedBlock>
+		<TexturedBlock>
+		    <x>-192</x>
+		    <y>0</y>
+		    <width>64</width>
+		    <height>64</height>
+		    <texture>rock</texture>
+		</TexturedBlock>
+		<TexturedBlock>
+		    <x>128</x>
+		    <y>64</y>
+		    <width>64</width>
+		    <height>64</height>
+		    <texture>rock</texture>
+		</TexturedBlock>
+		<TexturedBlock>
+		    <x>64</x>
+		    <y>64</y>
+		    <width>64</width>
+		    <height>64</height>
+		    <texture>rock</texture>
+		</TexturedBlock>
+		<TexturedBlock>
+		    <x>0</x>
+		    <y>0</y>
+		    <width>64</width>
+		    <height>64</height>
+		    <texture>rock</texture>
+		</TexturedBlock>
+		<TexturedBlock>
+		    <x>-64</x>
+		    <y>64</y>
+		    <width>64</width>
+		    <height>64</height>
+		    <texture>rock</texture>
+		</TexturedBlock>
+		<TexturedBlock>
+		    <x>-128</x>
+		    <y>64</y>
+		    <width>64</width>
+		    <height>64</height>
+		    <texture>rock</texture>
+		</TexturedBlock>
+		<TexturedBlock>
+		    <x>-192</x>
+		    <y>64</y>
+		    <width>64</width>
+		    <height>64</height>
+		    <texture>rock</texture>
+		</TexturedBlock>
+	</entities>
+</map>

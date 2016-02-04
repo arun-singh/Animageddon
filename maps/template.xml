@@ -1,0 +1,48 @@
+<!-- Authors: Barney -->
+<map>
+	<!-- The texture of the map background -->
+	<texture>ENTER FILENAME HERE</texture>
+
+	<!-- The size of the map -->
+	<size>
+		<width>ENTER WIDTH HERE</width>
+		<height>ENTER HEIGHT HERE</height>
+	</size>
+
+	<!-- The teams allowed to play on the map -->
+	<teams>
+		<team>
+			<name>ENTER TEAM NAME HERE</name>
+			<id>ENTER TEAM ID HERE</id>
+		</team>
+	</teams>
+
+	<!-- The positions where players should spawn -->
+	<spawnpoints>
+		<spawnpoint>
+			<x>ENTER X VALUE HERE</x>
+			<y>ENTER Y VALUE HERE</y>
+		</spawnpoint>
+	</spawnpoints>
+
+	<!-- List the non-player entities, including AI entities that are not part of a team -->
+	<!-- Must contain at least one flag and one flag capture region -->
+	<entities>
+		<Flag>
+			<x>ENTER X VALUE HERE</x>	
+			<y>ENTER Y VALUE HERE</y>	
+		</Flag>
+		<FlagCaptureRegion>
+			<x>ENTER X VALUE HERE</x>
+			<y>ENTER Y VALUE HERE</y>
+		</FlagCaptureRegion>
+		<TexturedBlock>
+			<x>ENTER X VALUE HERE</x>
+			<y>ENTER Y VALUE HERE</y>
+			<width>ENTER WIDTH HERE</width>
+			<height>ENTER HEIGHT HERE</height>
+			<texture>ENTER FILENAME HERE</texture>
+		</TexturedBlock>
+		<!-- For other entities, just specify their class name (Case sensitive) -->
+	</entities>
+</map>

@@ -1,0 +1,32 @@
+<!-- Authors: Barney -->
+<!-- The root node should always be a navmesh node -->
+<navmesh>
+	<!-- List the polygons that make up the navmesh -->
+	<!-- Each polygon MUST have a unique ID, it allows the game to add neighbour information in a far more efficient manner -->
+	<polygon id="ENTER ID HERE">
+		<!-- List the polygons vertices -->
+		<vertice>
+			<!-- Each vertice should have an x and y coordinate -->
+			<x>ENTER X COORDINATE HERE</x>
+			<y>ENTER Y COORDINATE HERE</y>
+		</vertice>
+
+		<!-- List the polygons directly adjacent neighbours -->
+		<!-- The id of each relates to the id given in it's polygon node definition, this MUST be present -->
+		<neighbour id="ENTER ID HERE">
+			<!-- The edge shared by the polygon and it's neighbour -->
+			<connectingedge>
+				<!-- The edges first vertice -->
+				<vertice>
+					<x>ENTER X COORDINATE HERE</x>
+					<y>ENTER Y COORDINATE HERE</y>
+				<vertice>	
+				<!-- The edges second vertice -->
+				<vertice>
+					<x>ENTER X COORDINATE HERE</x>
+					<y>ENTER Y COORDINATE HERE</y>
+				<vertice>	
+			</connectingedge>
+		</neighbour>
+	</polygon>
+</navmesh>
